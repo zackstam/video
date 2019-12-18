@@ -1,0 +1,4 @@
+<p>home works!</p>
+<video *ngIf="data?.link" width="512" height="288" controls="controls">
+    <source [src]="sanitize(data?.link)" type=  "video/mp4" />
+</video>

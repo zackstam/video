@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'http://localhost:3001',
+  dropboxPath: '/video',
+  afterUploadUrl: 'http://localhost:4200/#/home',
+  // zackstam@gmail.com
+  dropboxKey: 'yJ5_8RVoZAAAAAAAAAAAMWonKgWAoc25PinXnKsXPtG_U-yc4U_dOUmJlPXhuY9M'
 };
 
 /*
